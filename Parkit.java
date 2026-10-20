@@ -10,10 +10,12 @@ public class Parkit {
                 System.out.print("Durasi parkir (dalam jam): ");
                 durasi = sc.nextInt();
                 if (jenis == 1) {
-                    total += durasi * 3000; 
+                    total += durasi * 3000;
+                    System.out.print("harga parkir mobil: Rp" + (durasi * 3000) + "\n");
                 }
                 else {
                     total += durasi * 2000;
+                    System.out.print("harga parkir motor: Rp" + (durasi * 2000) + "\n");
                 }
             }
         } while (jenis != 0);
