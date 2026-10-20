@@ -19,7 +19,7 @@ public class Parkit {
                 }
             }
         } while (jenis != 0);
-        System.out.println("Total biaya parkir: Rp" + total);
+        System.out.println("Total biaya parkir: Rp 0" );
         sc.close();
     }
 }
