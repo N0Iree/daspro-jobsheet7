@@ -18,8 +18,10 @@ public class Bioskop {
     if (tiket > 4) {
     total = (tiket * hargaTiket) * 90 / 100;
       System.out.println("Total yang harus dibayar: Rp" + total);
+    } else {
+    total = tiket * hargaTiket;
+      System.out.println("Total yang harus dibayar: Rp" + total);
     }
-    sc.close();
-  } while (true);
- }   
+    } while (true);
+}   
 }
